@@ -4,6 +4,13 @@ import "./zombieattack.sol";
 import "./erc721.sol";
 import "./safemath.sol";
 
+/// TODO: Replace this with natspec descriptions:
+
+
+/// @title acontract that manages transferring Zombie Ownership
+/// @author mai
+/// @dev compiant with OpenZeppelin's implementation of the ERC721 spec draft
+
 contract ZombieOwnership is ZombieAttack, ERC721 {
 
   using SafeMath for uint256;
